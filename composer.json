@@ -1,0 +1,13 @@
+{
+    "name": "trendsoft/capital",
+    "type": "library",
+    "description": "capital",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jabber",
+            "email": "2898117012@qq.com"
+        }
+    ],
+    "require": {}
+}
