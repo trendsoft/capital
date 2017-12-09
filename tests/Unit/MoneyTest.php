@@ -4,6 +4,6 @@ namespace tests\Unit;
 
 use Tests\TestCase;
 
-class CapitalTest extends TestCase {
+class MoneyTest extends TestCase {
 
 }
