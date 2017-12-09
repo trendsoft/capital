@@ -25,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Trendsoft\\Capital\\": "src/"
+      "Capital\\": "src/"
     }
   },
   "autoload-dev": {
