@@ -1,13 +1,32 @@
 {
-    "name": "trendsoft/capital",
-    "type": "library",
-    "description": "capital",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "jabber",
-            "email": "2898117012@qq.com"
-        }
-    ],
-    "require": {}
+  "name": "trendsoft/capital",
+  "type": "library",
+  "keywords": [],
+  "homepage": "http://www.trendsoft.org",
+  "description": "capital",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jabber",
+      "email": "2898117012@qq.com",
+      "homepage": "http://jabber.oppophp.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "wiki": "https://github.com/trendsoft/capital/wiki",
+    "issues": "https://github.com/trendsoft/capital/issues"
+  },
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "\\Trendsoft\\Capital": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "\\Tests": "tests/"
+    }
+  }
 }
