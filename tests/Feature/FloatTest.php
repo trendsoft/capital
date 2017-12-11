@@ -17,6 +17,7 @@ class FloatTest extends TestCase {
 		$this->assertEquals( ( new Money( 2.21 ) )->toCapital(), '贰元贰角壹分' );
 		$this->assertEquals( ( new Money( 3.05 ) )->toCapital(), '叁元零伍分' );
 		$this->assertEquals( ( new Money( 3.005 ) )->toCapital(), '叁元' );
+		$this->assertEquals( ( new Money( 3.004 ) )->toCapital(), '叁元' );
 		$this->assertEquals( ( new Money( 999999999999.99911 ) )->toCapital(), '玖仟玖佰玖拾玖亿玖仟玖佰玖拾玖万玖仟玖佰玖拾玖元玖角玖分' );
 	}
 }
