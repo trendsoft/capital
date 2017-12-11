@@ -32,6 +32,4 @@ class MoneyTest extends TestCase {
 		$money = new Money( '999' );
 		$this->assertInstanceOf( Money::class, $money );
 	}
-
-
 }
