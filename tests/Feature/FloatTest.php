@@ -7,6 +7,7 @@ use Tests\TestCase;
 
 class FloatTest extends TestCase {
 	public function testFloat() {
+		$this->assertEquals( ( new Money( 0.10 ) )->toCapital(), '壹角' );
 		$this->assertEquals( ( new Money( 0.01 ) )->toCapital(), '壹分' );
 		$this->assertEquals( ( new Money( 0.001 ) )->toCapital(), '零元' );
 		$this->assertEquals( ( new Money( 0.09 ) )->toCapital(), '玖分' );

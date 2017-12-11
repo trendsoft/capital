@@ -10,7 +10,7 @@ class IntTest extends TestCase {
 	public function testInt() {
 		$this->assertEquals( ( new Money( 0 ) )->toCapital(), '零元' );
 		$this->assertEquals( ( new Money( 1 ) )->toCapital(), '壹元' );
-		$this->assertEquals( ( new Money( 10 ) )->toCapital(), '拾元' );
+		$this->assertEquals( ( new Money( 10 ) )->toCapital(), '壹拾元' );
 		$this->assertEquals( ( new Money( 20 ) )->toCapital(), '贰拾元' );
 		$this->assertEquals( ( new Money( 99 ) )->toCapital(), '玖拾玖元' );
 		$this->assertEquals( ( new Money( 100 ) )->toCapital(), '壹佰元' );
