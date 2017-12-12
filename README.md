@@ -12,7 +12,7 @@
 [![License](https://poser.pugx.org/trendsoft/capital/license)](https://packagist.org/packages/trendsoft/capital)
 
 ## 要求
-- PHP >= 5.6.4
+- PHP >= 7.0
 - Composer
 
 ## 安装
