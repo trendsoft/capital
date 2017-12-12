@@ -1,9 +1,13 @@
 {
   "name": "trendsoft/capital",
-  "type": "library",
-  "keywords": [],
+  "keywords": [
+    "capital",
+    "trendsoft",
+    "sdk",
+    "amount"
+  ],
   "homepage": "http://www.trendsoft.org",
-  "description": "capital",
+  "description": "金额转中文大写",
   "license": "MIT",
   "authors": [
     {
