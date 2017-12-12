@@ -11,7 +11,7 @@ before_script:
   - ./vendor/bin/phplint
 
 script:
-  - ./vendor/bin/phpunit
+  - phpunit
 
 matrix:
   fast_finish: true
