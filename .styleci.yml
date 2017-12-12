@@ -2,7 +2,7 @@ preset: symfony
 
 linting: true
 
-enable:
+enabled:
   - strict
   - strict_param
   - ordered_use
