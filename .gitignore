@@ -1,3 +1,4 @@
 /vendor/
 /.idea
 /.phplint-cache
+/.php_cs.cache
