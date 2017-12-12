@@ -2,6 +2,38 @@
 
 > 金额转中文大写。
 
+## 要求
+- PHP >= 5.6.4
+- Composer
+
+## 安装
+
+```shell
+$ composer require "trendsoft/capital" -vvv
+```
+
+## 使用示例
+
+> 如果小数部分是2位以上的，会四舍五入。
+
+```php
+( new Money( 0.001 ) )->toCapital(); //零元
+( new Money( 0.005 ) )->toCapital(); //壹分
+( new Money( 0.01 ) )->toCapital(); //壹分
+( new Money( 0.10 ) )->toCapital(); //壹角
+( new Money( 0.105 ) )->toCapital(); //壹角壹分
+( new Money( 0.11 ) )->toCapital(); //壹角壹分
+( new Money( 0.15 ) )->toCapital(); //壹角伍分
+( new Money( 1.01 ) )->toCapital(); //壹元零壹分
+( new Money( 10.01 ) )->toCapital(); //壹拾元零壹分
+( new Money( 0.09 ) )->toCapital(); //玖分
+( new Money( 1.0 ) )->toCapital(); //壹元
+( new Money( 1.1 ) )->toCapital(); //壹元壹角
+( new Money( 2.0 ) )->toCapital(); //贰元
+( new Money( 2.1 ) )->toCapital(); //贰元壹角
+```
+
+
 ## 算法
 
 ### 整数部分
@@ -44,24 +76,10 @@
 
 如: `0`、`0.00` 直接返回`零元`
 
-## 使用示例
+## Contribution
 
-> 如果小数部分是2位以上的，会四舍五入。
+[Contribution Guide](.github/CONTRIBUTING.md)
 
-```php
-( new Money( 0.001 ) )->toCapital(); //零元
-( new Money( 0.005 ) )->toCapital(); //壹分
-( new Money( 0.01 ) )->toCapital(); //壹分
-( new Money( 0.10 ) )->toCapital(); //壹角
-( new Money( 0.105 ) )->toCapital(); //壹角壹分
-( new Money( 0.11 ) )->toCapital(); //壹角壹分
-( new Money( 0.15 ) )->toCapital(); //壹角伍分
-( new Money( 1.01 ) )->toCapital(); //壹元零壹分
-( new Money( 10.01 ) )->toCapital(); //壹拾元零壹分
-( new Money( 0.09 ) )->toCapital(); //玖分
-( new Money( 1.0 ) )->toCapital(); //壹元
-( new Money( 1.1 ) )->toCapital(); //壹元壹角
-( new Money( 2.0 ) )->toCapital(); //贰元
-( new Money( 2.1 ) )->toCapital(); //贰元壹角
-```
+## License 
 
+MIT
