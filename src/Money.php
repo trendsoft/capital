@@ -12,9 +12,13 @@ namespace Capital;
 class Money
 {
     private $money;
+
     private $uppers = ['零', '壹', '贰', '叁', '肆', '伍', '陆', '柒', '捌', '玖'];
+
     private $units = ['分', '角'];
+
     private $grees = ['元', '拾', '佰', '仟', '万', '拾', '佰', '仟', '亿', '拾', '佰', '仟', '万', '拾', '佰'];
+
     private $thanOne = false;
 
     public function __construct($money)
@@ -36,7 +40,7 @@ class Money
     public function toCapital(): string
     {
         @list($intPart, $decimalPart) = explode('.', $this->money, 2);
-        if ($this->money == 0) {
+        if (0 === $this->money) {
             return '零元';
         }
         $result = $this->getIntPart($intPart);
