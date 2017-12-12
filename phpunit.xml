@@ -11,15 +11,15 @@
 				 stopOnFailure="false">
 	<testsuites>
 		<testsuite name="Unit Test Suite">
-			<directory suffix="Test.php">./tests/unit</directory>
+			<directory suffix="Test.php">tests/unit</directory>
 		</testsuite>
 		<testsuite name="Feature Test Suite">
-			<directory suffix="Test.php">./tests/feature</directory>
+			<directory suffix="Test.php">tests/feature</directory>
 		</testsuite>
 	</testsuites>
 	<filter>
 		<whitelist processUncoveredFilesFromWhitelist="true">
-			<directory suffix=".php">./src</directory>
+			<directory suffix=".php">src</directory>
 		</whitelist>
 	</filter>
 </phpunit>

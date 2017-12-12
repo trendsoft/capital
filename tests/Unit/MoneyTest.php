@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace tests\Unit;
+namespace Tests\Unit;
 
 use Capital\Money;
 use Tests\TestCase;
