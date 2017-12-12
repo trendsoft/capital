@@ -49,7 +49,7 @@ class Money
         return $result;
     }
 
-    public function getIntPart($intPart)
+    private function getIntPart($intPart)
     {
         $result = '';
         $gree = strlen($intPart) - 1;
@@ -77,7 +77,7 @@ class Money
         return $result;
     }
 
-    public function getDecimalPart($decimalPart)
+    private function getDecimalPart($decimalPart)
     {
         $result = '';
         if ($decimalPart > 0) {
