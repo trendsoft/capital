@@ -40,7 +40,7 @@ class Money
     public function toCapital(): string
     {
         @list($intPart, $decimalPart) = explode('.', $this->money, 2);
-        if (0 == $this->money) {
+        if (0.0 === floatval($this->money)) {
             return '零元';
         }
         $result = $this->getIntPart($intPart);
