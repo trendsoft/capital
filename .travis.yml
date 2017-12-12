@@ -8,7 +8,7 @@ php:
 
 before_script:
   - composer self-update
-  - composer install --prefer-srouce --no-interaction --dev
+  - composer install --prefer-source --no-interaction --dev
   - vendor/bin/phplint
 
 script:
