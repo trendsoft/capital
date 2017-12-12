@@ -10,7 +10,6 @@
 [![Monthly Downloads](https://poser.pugx.org/trendsoft/capital/d/monthly)](https://packagist.org/packages/trendsoft/capital)
 [![Daily Downloads](https://poser.pugx.org/trendsoft/capital/d/daily)](https://packagist.org/packages/trendsoft/capital)
 [![License](https://poser.pugx.org/trendsoft/capital/license)](https://packagist.org/packages/trendsoft/capital)
-[![composer.lock](https://poser.pugx.org/trendsoft/capital/composerlock)](https://packagist.org/packages/trendsoft/capital)
 
 ## 要求
 - PHP >= 5.6.4
