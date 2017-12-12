@@ -1,6 +1,15 @@
 # Capital
 
 > 金额转中文大写。
+[![Build Status](https://travis-ci.org/trendsoft/capital.svg?branch=master)](https://travis-ci.org/trendsoft/capital)
+[![Latest Stable Version](https://poser.pugx.org/trendsoft/capital/v/stable)](https://packagist.org/packages/trendsoft/capital)
+[![Latest Unstable Version](https://poser.pugx.org/trendsoft/capital/v/unstable)](https://packagist.org/packages/trendsoft/capital)
+
+[![Total Downloads](https://poser.pugx.org/trendsoft/capital/downloads)](https://packagist.org/packages/trendsoft/capital)
+[![Monthly Downloads](https://poser.pugx.org/trendsoft/capital/d/monthly)](https://packagist.org/packages/trendsoft/capital)
+[![Daily Downloads](https://poser.pugx.org/trendsoft/capital/d/daily)](https://packagist.org/packages/trendsoft/capital)
+[![License](https://poser.pugx.org/trendsoft/capital/license)](https://packagist.org/packages/trendsoft/capital)
+[![composer.lock](https://poser.pugx.org/trendsoft/capital/composerlock)](https://packagist.org/packages/trendsoft/capital)
 
 ## 要求
 - PHP >= 5.6.4
