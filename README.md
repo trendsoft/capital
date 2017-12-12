@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/trendsoft/capital.svg?branch=master)](https://travis-ci.org/trendsoft/capital)
 [![Latest Stable Version](https://poser.pugx.org/trendsoft/capital/v/stable)](https://packagist.org/packages/trendsoft/capital)
 [![Latest Unstable Version](https://poser.pugx.org/trendsoft/capital/v/unstable)](https://packagist.org/packages/trendsoft/capital)
-
+[![StyleCI](https://styleci.io/repos/113606774/shield?branch=master)](https://styleci.io/repos/113606774)
 [![Total Downloads](https://poser.pugx.org/trendsoft/capital/downloads)](https://packagist.org/packages/trendsoft/capital)
 [![Monthly Downloads](https://poser.pugx.org/trendsoft/capital/d/monthly)](https://packagist.org/packages/trendsoft/capital)
 [![Daily Downloads](https://poser.pugx.org/trendsoft/capital/d/daily)](https://packagist.org/packages/trendsoft/capital)
