@@ -9,11 +9,10 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/trendsoft/capital/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/trendsoft/capital/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/trendsoft/capital/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/trendsoft/capital/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/trendsoft/capital/badges/build.png?b=master)](https://scrutinizer-ci.com/g/trendsoft/capital/build-status/master)
-[![Build Status](https://scrutinizer-ci.com/g/trendsoft/capital/badges/build.png?b=master)](https://scrutinizer-ci.com/g/trendsoft/capital/build-status/master)
+[![License](https://poser.pugx.org/trendsoft/capital/license)](https://packagist.org/packages/trendsoft/capital)
 [![Total Downloads](https://poser.pugx.org/trendsoft/capital/downloads)](https://packagist.org/packages/trendsoft/capital)
 [![Monthly Downloads](https://poser.pugx.org/trendsoft/capital/d/monthly)](https://packagist.org/packages/trendsoft/capital)
 [![Daily Downloads](https://poser.pugx.org/trendsoft/capital/d/daily)](https://packagist.org/packages/trendsoft/capital)
-[![License](https://poser.pugx.org/trendsoft/capital/license)](https://packagist.org/packages/trendsoft/capital)
 
 ## 要求
 - PHP >= 7.0
