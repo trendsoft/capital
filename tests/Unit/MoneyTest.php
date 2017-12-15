@@ -45,4 +45,35 @@ class MoneyTest extends TestCase
         $money = new Money('999');
         $this->assertInstanceOf(Money::class, $money);
     }
+
+    public function testNullMoney()
+    {
+        $money = new Money();
+        $this->assertInstanceOf(Money::class, $money);
+    }
+
+    public function testSetMoney()
+    {
+        $money = new Money();
+        $money->setMoney(0);
+        $this->assertEquals(0, $money->getMoney());
+    }
+
+    public function testGetMoney()
+    {
+        $money = new Money();
+        $this->assertEquals(0, $money->getMoney());
+    }
+
+    public function testToCapital()
+    {
+        $money = new Money();
+        $this->assertEquals('零元', $money->toCapital());
+    }
+
+    public function testParse()
+    {
+        $money = new Money();
+        $this->assertEquals('壹元', $money->parse(1));
+    }
 }

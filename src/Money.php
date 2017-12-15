@@ -21,7 +21,30 @@ class Money
 
     private $thanOne = false;
 
-    public function __construct($money)
+    /**
+     * Money constructor.
+     *
+     * @param int|number|string $money default 0
+     */
+    public function __construct($money = 0)
+    {
+        $this->setMoney($money);
+    }
+
+    /**
+     * Get Init Money.
+     *
+     * @return string
+     */
+    public function getMoney(): string
+    {
+        return $this->money;
+    }
+
+    /**
+     * @param int|number|string $money default 0
+     */
+    public function setMoney($money = 0)
     {
         if (!(is_float($money) || is_numeric($money) || is_int($money))) {
             throw new \InvalidArgumentException($money);
@@ -49,6 +72,25 @@ class Money
         return $result;
     }
 
+    /**
+     * Parse to Capital.
+     *
+     * @param int|number|string $money default 0
+     *
+     * @return string
+     */
+    public function parse($money): string
+    {
+        $this->setMoney($money);
+
+        return $this->toCapital();
+    }
+
+    /**
+     * Get Int Part.
+     *
+     * @return string
+     */
     private function getIntPart($intPart)
     {
         $result = '';
@@ -77,11 +119,15 @@ class Money
         return $result;
     }
 
+    /**
+     * Get Decimal Part.
+     *
+     * @return string
+     */
     private function getDecimalPart($decimalPart)
     {
         $result = '';
         if ($decimalPart > 0) {
-            //处理小数部分
             $unit = strlen($decimalPart) - 1;
             for ($i = 0; $i < strlen($decimalPart); ++$i) {
                 $num = $decimalPart[$i];
