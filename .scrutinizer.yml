@@ -1,19 +1,4 @@
 build:
-  nodes:
-    analysis:
-      project_setup:
-        override:
-          - 'true'
-      tests:
-        override:
-          - php-scrutinizer-run
-          -
-            command: phpcs-run
-            use_website_config: true
-      environment:
-        node:
-          version: 6.0.0
-    tests: true
   environment:
     php:
       version: "7.1.0"
@@ -29,17 +14,3 @@ build:
         coverage:
           file: 'clover'
           format: 'clover'
-filter:
-  excluded_paths:
-    - 'tests/*'
-checks:
-  php: true
-coding_style:
-  php:
-    spaces:
-      around_operators:
-        unary_additive: true
-        concatenation: true
-        negation: true
-      within:
-        brackets: true
